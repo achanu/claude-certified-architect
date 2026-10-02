@@ -86,6 +86,19 @@ This repository contains study materials for the **Claude Certified Architect �
 - Work through the scenarios and questions.
 - Use the **Practical Exercises** section to rehearse key patterns (tool design, MCP integration, structured output, context management, and reliability).
 
+## How to Read the Practical Test Questions
+
+The practical test questions come from the real exam materials and are kept as they are. Some of them are deliberately compact: the correct answer often depends on one deciding phrase in the stem, while the stem leaves out details an engineer would normally ask about (traffic share, cost, whether the tools can be changed). Wording like this can be debated, and that is fine.
+
+A few habits that help:
+
+- Look for the deciding phrase: "most effective **first** step", "tool descriptions are clear", "incorrect refunds", and similar.
+- Ask what the proportionate first step is. Prefer the change that fixes the root cause with the least new machinery.
+- Separate guidance from guarantees. If a rule must always hold (for example, call order), the answer is usually programmatic enforcement, not a stronger prompt.
+- Use disagreement as a learning tool. Vote alone, discuss in pairs, vote again, and then read the explanation.
+
+Thanks to [Silvan Mühlemann](https://github.com/silvanm) and the team at mühlemann+popp for the thoughtful feedback in [issue #53](https://github.com/paullarionov/claude-certified-architect/issues/53).
+
 ## Free Anthropic Courses
 
 13 free courses & certificates from Anthropic Academy:
